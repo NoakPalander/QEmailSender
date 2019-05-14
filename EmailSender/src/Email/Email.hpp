@@ -35,8 +35,8 @@ namespace ssl {
 			/* --- Getter --- */
 			inline ErrorHandle GetError() const { return m_Error; }
 
-            /* --- Static --- */
-            static std::string ErrorStr(ErrorHandle error);
+			/* --- Static --- */
+            		static std::string ErrorStr(ErrorHandle error);
 
 		private: /* --- Functions --- */
 			void Init();
