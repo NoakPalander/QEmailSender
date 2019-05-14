@@ -34,7 +34,6 @@ class MainWindow : public QMainWindow {
 
         /* --- Setters --- */
         void setSendEvent(const logic::EventHandle& lambda);
-        void setViewEvent(const logic::EventHandle& lambda);
         void setStatus(const std::string& status, const std::string& color);
 
 
