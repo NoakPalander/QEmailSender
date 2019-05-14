@@ -32,11 +32,6 @@ void MainWindow::setSendEvent(const logic::EventHandle& lambda) {
 }
 
 
-void MainWindow::setViewEvent(const logic::EventHandle& lambda) {
-    m_ViewEvent = std::make_shared<logic::Event>(lambda);
-}
-
-
 void MainWindow::setStatus(const std::string &status, const std::string& color) {
     const std::string styleStr = "QLabel { color: " + color + ";}";
 
